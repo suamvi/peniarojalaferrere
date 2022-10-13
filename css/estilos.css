@@ -575,6 +575,78 @@ textarea {
     width: 30px;
 }
 
+/* fotos nosotros */
+
+/* fotos nosotros */
+
+.titulo_nosotros{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #c7284a;
+}
+
+.contenedor-galeria{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.imagnosotros{
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto; */
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    border-radius: 20%;
+    object-fit: cover;
+    filter: brightness(70%);
+    animation: escalar 1.5s infinite;
+}
+
+@keyframes escalar{
+    to {
+        transform: scale(1);
+    }
+    form {
+        transform: scale(1.05);
+    }
+}
+
+.imagnosotros:hover{
+    filter: brightness(100%);
+   
+}
+
+
+/* 
+M
+E
+D
+I
+A
+ */
+
+
+
+/* 
+M
+E
+D
+I
+A
+ */
+
+
+/*  */
+
+
 /* Media queries */
 
 @media (max-width:800px){
